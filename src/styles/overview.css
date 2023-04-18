@@ -1,0 +1,104 @@
+.overview{
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 100%; */
+    /* background-color: black; */
+    height: 500px;
+    width: 550px;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 15px;
+}
+
+.add-transaction{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    column-gap: 350px;
+    /* background-color: red; */
+    
+    
+
+}
+
+.add-transaction button{
+    height: 100%;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.transaction-form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    width: 100%;
+    height: 80%;
+    border-style: solid;
+    padding: 10px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: rgb(210, 209, 209);
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.transaction-form button{
+
+    height: 100%;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.transaction-form input[type="number"] , .transaction-form input[type="text"]{
+    height: 35px;
+    border-radius: 5px;
+    padding-left: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(210, 209, 209);
+    
+}
+
+.submit{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.total-expense , .total-income{
+    border-style: solid;
+    border-radius: 10px;
+    padding: 10px;
+    width: 40%;
+    height: 100px;
+    border-width: 1px;
+    border-color: rgb(210, 209, 209);
+}
+
+.total-expense p{
+    color: red;
+    font-size: large;
+}
+
+.total-income p{
+    color: green;
+    font-size: large;
+
+}
