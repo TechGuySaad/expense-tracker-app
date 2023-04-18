@@ -8,7 +8,11 @@
     justify-content: center;
     flex-wrap: wrap;
     column-gap: 20px;
-    row-gap: 15px;
+    /* row-gap: 15px; */
+    margin-bottom: 10px;
+
+    /* background-color: black; */
+    /* margin-bottom: 10px; */
     /* background-color: black; */
 }
 
@@ -40,9 +44,9 @@
 .transaction-form{
     display: flex;
     flex-direction: column;
-    row-gap: 50px;
+    row-gap: 12px;
     width: 100%;
-    height: 80%;
+    height: 45%;
     border-style: solid;
     padding: 10px;
     border-radius: 10px;
@@ -84,6 +88,11 @@
 }
 
 .total-expense , .total-income{
+    display: flex;
+    flex-direction: column;
+    /* padding: 10px; */
+    align-items: center;
+    justify-content: center;
     border-style: solid;
     border-radius: 10px;
     padding: 10px;
@@ -102,4 +111,10 @@
     color: green;
     font-size: large;
 
+}
+
+.totals{
+    display: flex;
+    width: 100%;
+    column-gap: 60px;
 }

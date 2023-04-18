@@ -85,7 +85,7 @@ export default function Overview() {
           </div>
         </div>
       )}
-
+      <div className="totals">
       <div className="total-expense">
         <h2>Expense</h2>
         <p>${expense}</p>
@@ -94,6 +94,8 @@ export default function Overview() {
         <h2>Income</h2>
         <p>${income}</p>
       </div>
+      </div>
+      
     </div>
   );
 }

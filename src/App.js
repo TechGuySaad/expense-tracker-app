@@ -4,8 +4,10 @@ import "./index.css"
 
 
 function App() {
+  
   return (
     <div className="App">
+      
       <h1>Expense Tracker</h1>
       <Overview></Overview>
       <Transaction></Transaction>
