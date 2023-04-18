@@ -30,7 +30,7 @@
     border-color: rgb(207, 206, 206);
     /* border-right: 4px; */
     border-right-width: 4px;
-    border-right-color: green;
+    /* border-right-color: green; */
     width: 100%;
     align-items: center;
     justify-content: space-between;

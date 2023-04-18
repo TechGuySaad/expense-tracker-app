@@ -1,10 +1,39 @@
 import '../styles/transaction.css'
 
-export default function TransactionCard(props){
-    return <div className="transaction-card">
+export default function TransactionCard({entry}){
+    const expenseColor = {
+        borderRightColor: 'red'
+    }
 
-        <p>Salary</p>
-        <p>$10000</p>
+    const incomeColor = {
+        borderRightColor: 'green'
+    }
+    // console.log(entry)
+    
+    
+    return <>
 
-    </div>
+    {
+        entry.map((item,index) => {
+            if(item.radio === 'expense'){
+                return <div className='transaction-card' key={index} style={expenseColor} >
+            <p>{item.type}</p>
+            <p>${item.money}</p>
+            </div>
+            }else{
+                return <div className='transaction-card' key={index} style={incomeColor} >
+            <p>{item.type}</p>
+            <p>${item.money}</p>
+            </div>
+            }
+            
+           
+
+    })
+
+    }
+
+        
+
+    </>
 }
